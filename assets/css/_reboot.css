@@ -21,6 +21,7 @@ ol {
 }
 
 button {
+  background-color: transparent;
   border: none;
 }
 
