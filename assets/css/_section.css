@@ -23,11 +23,26 @@
     left: 0;
     z-index: 1;
   }
+
   /* @PINK SECTION */
+  .pink-section {
+    margin-bottom: 150px;
+  }
+
   .pink-section-content {
     padding-right: 92px;
   }
+  /* @features */
+  .features h2 {
+    margin-bottom: 50px;
+  }
+
+  .features .section-header p {
+    width: 584px;
+    margin: 0 auto;
+  }
 }
+
 /* @HERO SECTION */
 .hero-section .hero-content h1 {
   font-size: 700;
@@ -64,4 +79,50 @@
   font-size: 18px;
   font-weight: 500;
   line-height: 28px;
+}
+/* @features */
+.features .section-header h2 {
+  font-size: 40px;
+  color: #212353;
+  font-weight: 700;
+}
+.features .hero-section p {
+  color: #4b5d68;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.features .section-header {
+  margin-bottom: 70px;
+}
+
+.features .card {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.features .card-content {
+  flex: 1 0 0;
+}
+
+.features .card-image,
+.features .card-content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.features .card:before {
+  content: "";
+  display: block;
+  background-image: url(../img/card-green.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
