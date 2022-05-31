@@ -7,6 +7,19 @@
 .text-right {
   text-align: right;
 }
+.text-white {
+  color: #ffff;
+}
+.font-size-40 {
+  font-size: 40px;
+}
+.font-weight-700 {
+  font-weight: 700;
+}
+.marjin-bottom-80 {
+  margin-bottom: 80px;
+}
+
 .marjin-bottom-30 {
   margin-bottom: 30px;
 }
