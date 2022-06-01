@@ -10,6 +10,10 @@
   padding-right: 15px;
   width: 400px;
 }
+
+.comments .comment-slider.swiper-wrapper {
+  height: 460px;
+}
 .comments .comment-slider .comment-item-container {
   background-color: #ffff;
   display: flex;
@@ -18,7 +22,7 @@
   padding: 50px 25px;
 }
 
-.comments .comment-slider .comment-item.active {
+.comments .comment-slider .comment-item.swiper-slide-active {
   width: 645px;
 }
 
