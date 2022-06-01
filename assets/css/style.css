@@ -8,3 +8,7 @@
 @import "./_footer.css";
 @import "./_section.css";
 @import "./_comment.css";
+
+body {
+  overflow-x: hidden;
+}
